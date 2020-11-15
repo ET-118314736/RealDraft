@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="pay.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+
+<center><h2>Payment Page</h2>
+    <p>Please enter your details below.</p></center>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+       
+           <div class="columndetails">
+               <h3><center>Billing Address</center></h3>
+            <ul style="list-style-type: none;">
+                <li><label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="firstname"></li>
+                <li><label for="email">Email:</label>
+                    <input type="text" id="email" name="email"></li>
+                <li><label for="adr">Address:</label>
+                    <input type="text" id="adr" name="address"></li>
+                <li><label for="city">City:</label>
+                    <input type="text" id="city" name="city"></li>
+                <li> <label for="state">State:</label>
+                    <input type="text" id="state" name="state"></li>
+                <li><label for="zip">Zip:</label>
+                    <input type="text" id="zip" name="zip"></li>
+            </ul>
+              </div>
+            </div>
+          
+
+            <div class="columndetails"> 
+                <h3><center>Payment</center></h3>
+           <ul style="list-style-type: none;">
+                <li><label class="left" for="cname">Name on Card:</label>
+            <input class="right" type="text" id="cname" name="cardname"></li>
+                <li><label class="left" for="ccnum">Credit card number:</label>
+            <input class="right" type="text" id="ccnum" name="cardnumber"></li>
+                <li><label class="left" for="expmonth">Exp Month:</label>
+            <input class="right" type="text" id="expmonth" name="expmonth"></li>
+                  <li><label class="left" for="expyear">Exp Year:</label>
+                <input class="right"type="text" id="expyear" name="expyear"></li>
+                  <li><label class="left" for="cvv">CVV:</label>
+                <input class="right" type="text" id="cvv" name="cvv"></li>
+                  <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Confirm Payment" class="btn">
+            </ul>
+             </div>
+            </div>
+          </div>
+          
+        </div>
+          </div>
+  </div>
+  </form>
+        
+      
+  
+  <!--<div class="col-25">
+    <div class="container">
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+      <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+      <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+      <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+      <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+    </div>
+  </div>-->
+</div>
+
+</body>
+</html>
